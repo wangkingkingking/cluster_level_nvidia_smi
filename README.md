@@ -8,6 +8,8 @@ Gpus cluster often consists of many nodes, in order to check a specific node's g
 ## Usage:
 
 ```shell
-./smi.py -n 5 
-./smi.py 
+./smi.py -n 5  #nvidia-smi for node 5
+./smi.py       #all nodes
 ```
+## Caution
+You may change the code according to your cluster  environment. 
